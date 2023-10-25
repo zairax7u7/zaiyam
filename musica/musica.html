@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../data/css_files/nav.css">
+    <link rel="stylesheet" href="../data/css_files/header.css">
+    <link rel="stylesheet" href="../data/css_files/longout.css">
+    <link rel="stylesheet" href="./musica.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>MUSICA</title>
+</head>
+<body class="body" id="body">
+
+    <header class="header header_down" id="headerr">
+
+        <div class="log_out_back" id="log_out_ground"></div>
+        <div class="header_back " id="headerback">
+            <div class="log_out" id="log_out_fondo">
+                <img src="../data/imagenes/nav_img/exx.png" class="log_out_img" id="log_out_id">
+                <p>¿Quieres cerrar sesión?</p>
+                <button type="button" class="log_out_buton" id="cerrarbutton">Si cerrar</button>
+            </div>
+            
+            <div class="header_profile">
+                <div class="profile_img" id="profile"></div>
+                <div class="profile_ex">
+                    <div class="ex_img" id="eximg"></div>
+                </div>
+            </div>
+            <nav class="back_nav">
+                <ul class="nav_ul">
+                    <li class="nav_li"><a href="../home/home.html"><span class="nav_li_span nav_li_inicio"></span>INICIO</a></li>
+                    <li class="nav_li"><a href="../galeria/galeria.html"><span class="nav_li_span nav_li_galeria"></span>GALERIA</a></li>
+                    <li class="nav_li"><a href="#"><span class="nav_li_span nav_li_calendario"></span>CALENDARIO</a></li>
+                    <li class="nav_li"><a href="#"><span class="nav_li_span nav_li_cuentos"></span>CUENTOS</a></li>
+                    <li class="nav_li"><a href="#"><span class="nav_li_span nav_li_diagnosticos"></span>DIAGNOSTICOS</a></li>
+                    <li class="nav_li nav_li_color_item"><a href="../musica/musica.html"><span class="nav_li_span nav_li_musica"></span>MUSICA</a></li>
+                    <li class="nav_li"><a href="#"><span class="nav_li_span nav_li_sad"></span>SAD MOMENT</a></li>
+                    <li class="nav_li"><a href="../fraces/fraces.html"><span class="nav_li_span nav_li_fraces"></span>FRACES</a></li>
+                    <li class="nav_li"><a href="#"><span class="nav_li_span nav_li_metas"></span>METAS</a></li>
+                    <li class="nav_li"><a href="#"><span class="nav_li_span nav_li_viajes"></span>VIAJES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <!-- header arriba--------------- -->
+      <div class="mainhead">
+            <div class="mainhead_hambur">
+                <!-- <img src="../data/imagenes/nav_img/hamburgesa.png" alt="menu" id="hamburgesa"> -->
+            </div>
+            <div class="mainhead_title">
+            </div>
+
+        <div class="div-reproductor">
+            <div class="reproductor__head">
+                <div class="head__back buttons-styles" id="hamburgesa">
+                    <img src="../data/imagenes/musica_img/recursos/flecha derecha.svg" alt="" class="back__img">
+                </div>
+                <div class="head__text"><h1 class="text__h1">Playing Now</h1></div>
+                <div class="head__hamburgesa buttons-styles"><img src="../data/imagenes/musica_img/recursos/hamburgesa.svg" alt="" class="hamburgesa__img"></div>
+            </div>
+            <div class="reproductor__center">
+                <div class="center__disk" id="rotarDisco">
+                    <div class="disk__point"></div>
+                </div>
+                <div class="center__disk-text"><h2 class="disk-text__text">Mi Niña Traviesa</h2></div>
+                <div class="center__disk-text-2"><h2 class="disk-text__text"> Luis Coronel</h2></div>
+            </div>
+            <div class="reproductor__line">
+                <div class="line__time">
+                    <h3 class="time__strat">0:00</h3>
+                    <h3 class="time__end">3:34</h3>
+                </div>
+                <div class="line__process">
+                    <input type="range" id="miRango" min="0" max="214" step="1" value="0">
+                </div>
+            </div>
+            <div class="reproductor__bottons">
+                <div class="buttons__back buttons-styles">
+                    <img src="../data/imagenes/musica_img/recursos/back.svg" alt="" class="next__back">
+                </div>
+                <div class="buttons__play buttons-styles">
+                    <img src="../data/imagenes/musica_img/recursos/play.svg" alt="" class="next__play" id="buttonPlay">
+                    <img src="../data/imagenes/musica_img/recursos/pause.svg" alt="" class="next__play next__play-none" id="buttonPlay2">
+                </div>
+                <div class="buttons__next buttons-styles">
+                    <img src="../data/imagenes/musica_img/recursos/next.svg" alt="" class="next__img">
+                </div>
+            </div>
+            <img src="../data/audios/fraces_au/baulabierto.mp3" alt="">
+        </div>
+        <!-- --------------------------- -->
+    </main>
+    <script src="../data/js_files/nav.js"></script>
+    <script src="./musica.js"></script>
+</body>
+</html>

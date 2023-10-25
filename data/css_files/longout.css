@@ -1,0 +1,46 @@
+/* cerrar sesion */
+.log_out{
+    position: absolute;
+    width: 70%;
+    height: 90px;
+    background-color: #ffffff;
+    text-align: center;
+    z-index: 150;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    left: 20%;
+    top: 4%;
+    display: none;
+}
+
+.log_out p{
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.log_out_buton{
+    font-size: 0.9em;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px dashed black;
+}
+
+.log_out_img{
+    margin: 2px;
+    position: absolute;
+    right: 0;
+    width: 18px;
+}
+
+.log_out_back{
+    display: none;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.276);
+    position: absolute;
+    top: 0px;
+    width: 70%;
+    height: 100vh;
+    z-index: 120;
+}
+
+/* --------------------------------------------- */
